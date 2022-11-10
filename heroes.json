@@ -1,30 +1,43 @@
 {
   "heroes": [
-      {
-          "id": 1,
-          "name": "First Hero",
-          "description": "First Hero in Rank!",
-          "element": "fire"
-      },
-      {
-          "id": 2,
-          "name": "Ninja",
-          "description": "Lurking in the shadows",
-          "element": "wind"
-      },
-      {
-          "id": 3,
-          "name": "Sea Hero",
-          "description": "Like Aquaman, but not from DC",
-          "element": "water"
-      }
-      
+    {
+      "id": 1,
+      "name": "First Hero",
+      "description": "First Hero in Rank!",
+      "element": "fire"
+    },
+    {
+      "id": 2,
+      "name": "Ninja",
+      "description": "Lurking in the shadows",
+      "element": "wind"
+    }
   ],
   "filters": [
-      "all",
-      "fire",
-      "water",
-      "wind",
-      "earth"
+    {
+      "name": "all",
+      "label": "All",
+      "className": "btn-outline-dark"
+    },
+    {
+      "name": "fire",
+      "label": "Fire",
+      "className": "btn-danger"
+    },
+    {
+      "name": "water",
+      "label": "Water",
+      "className": "btn-primary"
+    },
+    {
+      "name": "wind",
+      "label": "Wind",
+      "className": "btn-success"
+    },
+    {
+      "name": "earth",
+      "label": "Earth",
+      "className": "btn-secondary"
+    }
   ]
 }
