@@ -11,6 +11,12 @@
       "name": "Ninja",
       "description": "Lurking in the shadows",
       "element": "wind"
+    },
+    {
+      "id": "de0eb3eb-2222-4ef5-bea3-1600ad7591b4",
+      "name": "wewe",
+      "description": "fgfg",
+      "element": "water"
     }
   ],
   "filters": [
